@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__bar">
+      <a href="#"><span class="logo nav__logo">P</span>Portfolio</a>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Experience</a></li>
+      <li><a href="#portfolio">Projects</a></li>
+      <li><a href="#contact" class="btn">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="section__container header__container" id="home">
+    <div class="header__image">
+      <img src="S__24895493.jpg" alt="Preeyakamon Khamphaeng">
+    </div>
+    <div class="header__content">
+      <h1>640910298 <br />Preeyakamon Khamphaeng</h1>
+      <p class="section__description">
+        Hello everyone. I'm Anna. I’m 22 years old. My birthday is the 25th of March 2002. I’m a student at Silpakorn University.
+      </p>
+      <div class="header_btn">
+        <button class="btn" aria-label="Welcome Message">ยินดีทุกท่านเข้าสู่เว็บไซต์ของฉัน</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section__container about__container" id="about">
+    <div class="service__card">
+      <h2 class="section__header">Experience</h2>
+      <p class="section__description">
+        <span><i class="ri-window-fill"></i></span>
+        เข้าร่วมโครงการวิศวะสร้างสรรค์เสริมปัญญา การพัฒนา IoT โดยใช้ ESP32 และ LINEBOT รุ่นที่ 1
+        รวมไปถึงการเขียนโปรแกรมภาษา Python การใช้งาน NEttPIE 2020 สร้าง Project/Devices/Groups การสร้าง LINE Bot การใช้งาน ngrok การสร้าง Rich Menu และการทำ Auto Run
+      </p>
+      <p>
+        <span><i class="ri-book-fill"></i></span>
+        เข้าร่วมการจัดค่ายอัจฉริยภาพวิศวศิลปากรของภาควิชาไฟฟ้า การปฏิบัติการพื้นฐานไมโครคอนโทรลเลอร์และระบบฝังตัวในปี 2565 และปี 2566 การปฏิบัติการวิศวกรรมไฟฟ้าพื้นฐานในปี 2567
+      </p>
+    </div>
+  </section>
+
+  <section class="section__container portfolio__container" id="portfolio">
+    <div class="service__card">
+      <h2 class="section__header">Projects</h2>
+      <p class="section__description">
+        <span><i class="ri-window-fill"></i></span>
+        Fire Detection And Protection Circuit
+        วงจรการตรวจจับและป้องกันเหตุเพลิงไหม้ โดยเฟรมเซ็นเซอร์ ตัวตรวจจับแก๊สและควันไฟ ส่งคำสั่งให้ตัว Buzzer ให้ LED ติด เพื่อเป็นการสั่งสัญญาณเตือนภัยและยังมีตัวมอเตอร์เพื่อฉีดน้ำมาดับเปลวไฟ โดยทั้งหมดนี้ควบคุมการทำงานโดย PIC16F84A
+      </p>
+    </div>
+
+    <div class="portfolio__banner">
+      <div class="portfolio__image">
+        <img src="1.jpg" alt="Project Image 1" />
+      </div>
+      <div class="portfolio__image">
+        <img src="2.jpg" alt="Project Image 2" />
+      </div>
+      <div class="portfolio__image">
+        <img src="3.jpg" alt="Project Image 3" />
+      </div>
+    </div>
+
+    <div class="portfolio__banner">
+      <div class="portfolio__banner__card">
+        <span><i class="ri-macbook-line"></i></span>
+        <h4>ข้อดี</h4>
+        <p>เป็นคนมีน้ำใจ อัธยาศัยดี เข้ากับคนอื่นได้ง่าย</p>
+      </div>
+      <div class="portfolio__banner__card">
+        <span><i class="ri-discuss-line"></i></span>
+        <h4>ข้อเสีย</h4>
+        <p>เป็นคนวิตกกังวล</p>
+      </div>
+      <div class="portfolio__banner__card">
+        <span><i class="ri-heart-fill"></i></span>
+        <h4>สิ่งที่คาดไว้ในอนาคต</h4>
+        <p>ได้ทำงานอย่างที่ชอบและเจอเพื่อนร่วมงานที่ดี</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container contact__container" id="contact">
+    <div class="logo">P</div>
+    <h2 class="section__header">Let's Talk To Me!</h2>
+    <p class="section__description">
+      Thank you to everyone who has visited my personal portfolio website.
+    </p>
+    <div class="contact__socials">
+      <a href="https://www.facebook.com/preeyakamol.kumphang/"><i class="ri-facebook-fill"></i></a>
+      <a href="https://line.me/ti/p/wRXfItAL6t"><i class="ri-line-fill"></i></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Preeyakamon Khamphaeng. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
